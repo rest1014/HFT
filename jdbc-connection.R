@@ -2,8 +2,8 @@
 #
 
 # Credentials and table
-rquser <-""
-rqpwd <-""
+rquser <- readline("Username: ")  
+rqpwd <- readline("Password: ") 
 table <-"KADA1023.HFT001"
 
 # Load RJDBC library
